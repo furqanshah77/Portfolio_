@@ -1,0 +1,159 @@
+@font-face {
+    font-family: poppins;
+    src: url(./font/Poppins-Regular.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+
+}
+
+
+/* .container {
+    width: 90%;
+} */
+
+.rightNav>.nameMain {
+    color: #14279B;
+    font-weight: 500;
+}
+
+.rightNav>.nameMain>.name {
+    color: #002265;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    gap: 50px;
+
+}
+
+.leftNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.leftNav {
+    display: flex;
+
+}
+
+.leftNav>ul {
+    display: flex;
+    gap: 50px;
+}
+
+.leftNav>ul li a {
+
+    color: black;
+    text-decoration: none;
+}
+
+.leftNav>ul li {
+    list-style: none;
+}
+
+.btn {
+    padding: 10px 18px;
+    border-radius: 10px;
+    background: #608AF5;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+
+
+.hemBurger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+
+}
+
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+
+@media screen and (max-width: 920px) {
+    .rightNav>.nameMain {
+        position: absolute;
+        left: 50px;
+        top: 5px;
+    }
+
+    .leftNav {
+        display: none;
+    }
+
+    .hemBurger {
+        display: block;
+    }
+
+
+}
+
+@media screen and (max-width: 460px) {
+
+    .hemBurger {
+        position: absolute;
+        right: 20px;
+        width: 25px;
+        height: 2px;
+        margin: 2px 0;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 25px;
+        height: 3px;
+        margin: 5px 0;
+    }
+
+    .rightNav>.nameMain {
+        position: absolute;
+        left: 20px;
+        font-size: 1.4rem;
+
+    }
+
+    .rightNav>.nameMain>.name {
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+}
