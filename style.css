@@ -11,11 +11,6 @@ body {
 
 }
 
-
-/* .container {
-    width: 90%;
-} */
-
 .rightNav>.nameMain {
     color: #14279B;
     font-weight: 500;
@@ -32,8 +27,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 8%;
     gap: 50px;
+    height: 50px;
 
 }
 
@@ -108,11 +104,123 @@ body {
 }
 
 
+.upper {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 5% 10%;
+    /* margin: 5% 8%; */
+    height: 50vh;
+    gap: 20%;
+}
+
+.upper>div {
+    width: 40%;
+}
+
+.left-upper {
+    line-height: 40px;
+}
+
+.left-upper #element {
+    color: #002265;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.upper-nameMain {
+    font-size: 6rem;
+    font-weight: bolder;
+    color: #002265;
+    ;
+}
+
+.upper-name {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #14279B;
+}
+
+.pera {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.right-upper {
+    width: 100%;
+
+
+}
+
+.right-upper>img {
+
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+    .navbar {
+        height: 60px;
+    }
+
+    .upper {
+        flex-direction: column-reverse;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .left-upper>div {
+        width: 100%;
+
+    }
+
+    .left-upper #element {
+        color: #002265;
+        font-size: 3.5rem;
+        font-weight: bolder;
+    }
+
+    .right-upper>img {
+
+        width: 100%;
+        height: 50%;
+    }
+
+
+
+}
+
+
 @media screen and (max-width: 920px) {
     .rightNav>.nameMain {
         position: absolute;
         left: 50px;
         top: 5px;
+    }
+
+    .navbar {
+        height: 80px;
     }
 
     .leftNav {
@@ -123,6 +231,41 @@ body {
         display: block;
     }
 
+    .upper {
+        flex-direction: column-reverse;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .upper-name {
+        font-size: 2.5rem;
+    }
+
+    .upper-nameMain {
+        font-size: 2.5rem;
+    }
+
+    .pera {
+        font-size: 1.5rem;
+    }
+
+    .left-upper>div {
+        width: 100%;
+    }
+ 
+
+    .left-upper #element {
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+
+    .right-upper>img {
+        width: 100%;
+        height: 100%;
+
+    }
 
 }
 
@@ -144,16 +287,45 @@ body {
         margin: 5px 0;
     }
 
+    .left-upper {
+        line-height: 10px;
+        width: 100%;
+    }
+
+
+    .left-upper>div {
+        width: 100%;
+    }
+
+    .left-upper #element {
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+
+    .pera {
+        font-size: 1rem;
+    }
+
     .rightNav>.nameMain {
         position: absolute;
         left: 20px;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
 
     }
 
     .rightNav>.nameMain>.name {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-weight: bolder;
+    }
+
+    .right-upper {
+        /* padding-right:40px ; */
+    }
+
+    .right-upper>img {
+        width: 80%;
+        height: 50%;
+
     }
 
 }
