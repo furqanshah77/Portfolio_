@@ -106,9 +106,7 @@ body {
 
 .upper {
     display: flex;
-    /* flex-wrap: wrap; */
     padding: 5% 10%;
-    /* margin: 5% 8%; */
     height: 50vh;
     gap: 20%;
 }
@@ -316,10 +314,6 @@ body {
     .rightNav>.nameMain>.name {
         font-size: 1.4rem;
         font-weight: bolder;
-    }
-
-    .right-upper {
-        /* padding-right:40px ; */
     }
 
     .right-upper>img {
