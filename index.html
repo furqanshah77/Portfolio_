@@ -14,15 +14,15 @@
         <header>
             <nav class="navbar">
                 <div class="rightNav">
-                    <h1 class="nameMain"><span class="name">Furqan</span>Ali</h1>
+                    <a href="#"><h1 class="nameMain"><span class="name">Furqan</span>Ali</h1></a>
                 </div>
                 <div class="leftNav v-nav-resp">
                     <ul class="nav-manu">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Passions</a></li>
+                        <li><a href="#left-upper">About</a></li>
+                        <li><a href="#sec-card">Passions</a></li>
                         <li><a href="#">Portfolio</a></li>
                     </ul>
-                    <input type="button" value="Contact Me" class="btn">
+                    <a href="mailto:shahfurqan668@gmail.com"><input type="button" value="Contact Me" class="btn"></a>
                 </div>
 
                 <div class="hemBurger" onclick="myFunction(this)">
@@ -33,7 +33,7 @@
             </nav>
         </header>
         <section class="upper">
-            <div class="left-upper">
+            <div class="left-upper" id="left-upper">
                 <h2 class="pera">Hello I'M</h2>
                 <h1 class="upper-name"><span class="upper-nameMain">Furqan</span>Ali</h1>
                 <h2 class="pera">And I'M a <span id="element"></span></h2>
@@ -42,6 +42,43 @@
                 <img src="./img/heroImg 1.png" alt="Image">
             </div>
         </section>
+
+        <!-- <section class="about">
+            <p>Front-End developer based in <Span class="city">Karachi, Pakistan</Span>
+                I’am coding with a clean and beautiful problem
+                solving in mind.</p>
+        </section> -->
+
+        <section class="sec-card" id="sec-card">
+            <h1 class="nol">Additional <span class="bold-head">passions</span></h1>
+            <div class="passion">
+                <a href="#">
+                    <div class="card"><img src="./img/fE-d.png" alt="Front End">
+                        <h3 class="tital">Front-End <span class="detail">Developer</span>
+                            <p>Sass, Bootstrap, Tailwind</p>
+                        </h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="card"><img src="./img/bE-d.png" alt="Front End">
+                        <h3 class="tital">Back-End <span class="detail">Developer</span>
+                            <p>NodeJS, Laravel, Codeigniter</p>
+                        </h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="card"><img src="./img/Ui-Ux.png" alt="Front End">
+                        <h3 class="tital">UI/UX <span class="detail">Designer</span>
+                            <p>Figma, Zeplin, Adobe XD</p>
+                        </h3>
+                    </div>
+                </a>
+
+
+            </div>
+
+        </section>
+
 
     </div>
 
