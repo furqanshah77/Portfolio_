@@ -6,7 +6,13 @@ function myFunction(x) {
 
 var typed = new Typed('#element', {
     strings: ['<b>Developer</b>', 'FreeLancer', `Designer`, `Youtuber`, `Blogger` ],
-    typeSpeed: 50,
+    typeSpeed: 100,
     backSpeed: 10,
     loop: true,
   });
+
+
+
+
+
+
