@@ -11,18 +11,23 @@
 
 <body>
     <div class="container">
-        <header>
-            <nav class="navbar">
+
+        <!-- NavBar -->
+
+        <header id="navbar-header">
+            <nav class="navbar" id="navbar">
                 <div class="rightNav">
-                    <a href="#"><h1 class="nameMain"><span class="name">Furqan</span>Ali</h1></a>
+                    <a href="#navbar-header">
+                        <h1 class="nameMain"><span class="name">Furqan</span>Ali</h1>
+                    </a>
                 </div>
                 <div class="leftNav v-nav-resp">
                     <ul class="nav-manu">
                         <li><a href="#left-upper">About</a></li>
                         <li><a href="#sec-card">Passions</a></li>
-                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#sec-pro">Porjects</a></li>
                     </ul>
-                    <a href="mailto:shahfurqan668@gmail.com"><input type="button" value="Contact Me" class="btn"></a>
+                    <a href="#cnt"><input type="button" value="Contact Me" class="btn"></a>
                 </div>
 
                 <div class="hemBurger" onclick="myFunction(this)">
@@ -32,6 +37,9 @@
                 </div>
             </nav>
         </header>
+
+        <!-- FirstSection -->
+
         <section class="upper">
             <div class="left-upper" id="left-upper">
                 <h2 class="pera">Hello I'M</h2>
@@ -43,14 +51,10 @@
             </div>
         </section>
 
-        <!-- <section class="about">
-            <p>Front-End developer based in <Span class="city">Karachi, Pakistan</Span>
-                I’am coding with a clean and beautiful problem
-                solving in mind.</p>
-        </section> -->
+        <!-- SecondSection -->
 
         <section class="sec-card" id="sec-card">
-            <h1 class="nol">Additional <span class="bold-head">passions</span></h1>
+            <h1 class="nol">Additional <span class="bold-head">Passions</span></h1>
             <div class="passion">
                 <a href="#">
                     <div class="card"><img src="./img/fE-d.png" alt="Front End">
@@ -73,12 +77,63 @@
                         </h3>
                     </div>
                 </a>
-
-
             </div>
-
         </section>
 
+        <!-- ThrithSection -->
+
+        <section class="sec-pro" id="sec-pro">
+            <h1 class="nol">My <span class="bold-head">Projects</span></h1>
+            <div class="project">
+                <a href="https://furqanshah77.github.io/foodwaGon/" target="_blank">
+                    <div class="card-pro"><img src="./img/FoodWagon.png" alt="foosWagon">
+                        <h3 class="tital">foodwaGon
+                            <p>a Food Delivery Website</p>
+                        </h3>
+                    </div>
+                </a>
+                <a href="https://furqanshah77.github.io/Doctor-Appointment/" target="_blank">
+                    <div class="card-pro"><img src="./img/dotor.png" alt="doctor">
+                        <h3 class="tital">Healt Care
+                            <p>Providing Quality Healthcare for a Brighter and Healthy Future</p>
+                        </h3>
+                    </div>
+                </a>
+                <a href="https://furqanshah77.github.io/Solar_system/" target="_blank">
+                    <div class="card-pro"><img src="./img/earth.jpg" alt="solar">
+                        <h3 class="tital">Solar System
+                            <p>Sun, Earth And Moon Animation</p>
+                        </h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ContactMe -->
+
+        <section class="cnt" id="cnt">
+            <h1 class="nol">Contact <span class="bold-head">Me</span></h1>
+            <div class="cont-m">
+                <a href="https://github.com/furqanshah77" target="_blank">
+                    <div class="card-con"><img src="./img/Git.png" alt="github"></div>
+                </a><a href="https://www.instagram.com/here_is_taha/" target="_blank">
+                    <div class="card-con"><img src="./img/Instagram.png" alt="Instagram"></div>
+                </a><a href="#">
+                    <div class="cardcon"><img src="./img/Email.png" alt="email" id="email"></div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <footer class="footer-wave">
+            <div class="wave">
+                <img src="./img/Vector.png" alt="Wave">
+                <a href="#navbar-header">
+                    <p class="peraa">Design By <span class="nameMain">Furqan</span><span class="name">Ali</span></p>
+                </a>
+            </div>
+        </footer>
 
     </div>
 
